@@ -1,0 +1,25 @@
+.home {
+    background: url('../img/header-bg.jpg');
+    padding: 220px 0 250px;
+
+    &__subtitle {
+        color: $lite-green;
+        font-family: $Yellowtail;
+        font-size: 3.6rem;
+        line-height: 1.8; 
+        letter-spacing: 0.36px;
+        text-transform: capitalize;
+        padding-bottom: 14px;
+    }
+    
+    &__title {
+        max-width: 496px;
+        color: $medium-gray;
+        font-family: $Roboto;
+        font-size: 7rem;
+        font-weight: 700;
+        line-height: 1.2; 
+        letter-spacing: 0.36px;
+        padding-bottom: 30px;
+    }
+}

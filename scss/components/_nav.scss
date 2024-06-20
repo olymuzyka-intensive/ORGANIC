@@ -1,0 +1,17 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex: auto;
+    position: relative;
+    @media(max-width: 1025px) {
+        justify-content: flex-end;
+        gap: 25px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 10000;
+        
+    }
+}

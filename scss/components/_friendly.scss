@@ -1,0 +1,33 @@
+.friendly {
+    padding: 140px 0; overflow: hidden;
+    &__row {
+        background: #EFF6F1;
+        margin-left: -30px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 580px;
+        grid-gap: 30px;
+    }
+
+    &__list {
+        &_img { 
+            position: relative;               
+        }
+        
+        &_title {
+            height: 95px;
+            border-radius: 20px;
+            background: $white;
+            padding: 30px 80px;
+            color: #274C5B;
+            font-family: $Roboto;
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1.4;
+            letter-spacing: 0.36px;
+            position: absolute;
+            top: 243px;
+            left: 75px;
+        }
+    }       
+}
